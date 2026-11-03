@@ -119,13 +119,13 @@
       border: 1px solid transparent;
     }
 
-    /* Destaque para o Poster */
-    .btn-poster {
+    /* Destaque para o Poster e Artigo (Azul Institucional) */
+    .btn-poster, .btn-article {
       background: var(--primary);
       color: white;
       box-shadow: 0 4px 12px rgba(0, 90, 156, 0.2);
     }
-    .btn-poster:hover {
+    .btn-poster:hover, .btn-article:hover {
       background: var(--primary-hover);
       transform: translateY(-1px);
     }
@@ -173,9 +173,14 @@
         <span>📄</span> Download Conference Poster (PDF)
       </a>
 
-      <!-- Artigo Científico de Base -->
-      <a href="https://www.sciencedirect.com/science/article/pii/S2212095526002257" target="_blank" rel="noopener" class="btn btn-secondary">
+      <!-- Artigo Científico de Base (Também a Azul) -->
+      <a href="https://www.sciencedirect.com/science/article/pii/S2212095526002257" target="_blank" rel="noopener" class="btn btn-article">
         <span>📖</span> Read Published Article (ScienceDirect)
+      </a>
+
+      <!-- Email Institucional -->
+      <a href="mailto:miguelrosa@ua.pt" class="btn btn-secondary">
+        <span>✉️</span> Institutional Email
       </a>
 
       <!-- LinkedIn -->
